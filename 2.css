@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Montagu+Slab:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.centralizar-container{
+    margin:auto;
+}
+
+div{
+    width: 85%;
+    padding: 3em;
+    box-shadow: 0 0 2.2em rgba(0,0,0, .2);
+    background-color: white;
+}
+header{
+    text-align: center;
+}
+header ul{
+    margin-top: 1.5em;
+}
+header li{
+    list-style-type: none;
+    display: inline-block;
+    font-family:cursive;
+    font-size: 125%;
+    margin-right: 2em;
+}
+header li:last-child{margin-right: 0;}
+header a{
+    text-decoration: none; color:rgb(77, 76, 78); padding: .8em;
+}
+
+
+section.content{
+    padding: 0 7.5%;
+    height: 1000px;
+    background-color:rgb(202, 181, 253);
+}
+
+div.título{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(87, 19, 134);
+    font-size: 23px;
+}
+
+div.post{
+    height: 100%;
+    background-color:rgb(202, 181, 253);
+    width: 80%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(92, 90, 90);
+    font-size: 19px;
+    
+}
+
+
+
+footer{
+    padding: 0 7.5%;
+    height: 180px;
+    background-color: rgb(170, 62, 173);
+}
+
+.artigo{
+    color:rgb(102, 100, 100);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.esquerda{
+    float: left;
+    margin: 1em 1em 1em 0;
+}
+p{
+    line-height: 160%;
+    text-align: justify;
+
+}
+hr{
+    width: 85%;
+    margin: 4em auto;
+    border: 1.5px solid rgba(216,91,83,.25);
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, .16);
+}
+h2{
+    font-size: 25px;
+}
+.perfil{
+    height: 150px;
+    width: 120px;
+    margin-left: 20px;
+}
+.descrição{
+    font-size: 15px
+    ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.visualizar{
+    font-size: 10px;
+    color: rgb(194, 194, 194);
+    margin-left: 10px;
+}
+.facebook{
+    height: 40px;
+    width: 70x;
+
+}
+.whatsapp{
+    height: 40px;
+    width: 70x;
+
+}
+.instagram{
+    height: 40px;
+    width: 70x;
+
+}
+.twitter{
+    height: 40px;
+    width: 70x;
+
+}
+.falecon{
+    font-size: 20px;
+    color: rgb(218,209,219);
+
+    margin-top: 15px;
+}
+.cont{
+    font-size: 15px;
+    color:rgb(186, 156, 192);
+}
+.email{
+    font-size: 15px;
+    color: rgb(186, 156, 192);
+}
